@@ -37,14 +37,6 @@ graph TD
 ```
 ## Setup
 
-### Requirements
-
-*   **Python 3.x**
-*   **`llm` CLI tool:** For interacting with LLMs.
-*   **`rich` Python library:** For rich terminal output.
-*   **An LLM:** Configured with `llm` (e.g., `gemini-2.5-flash-preview-04-17`).
-*   **Unix-like Environment:** For named pipes.
-
 ### Installation
 
 1.  **Clone the repository:**
