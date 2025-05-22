@@ -1,0 +1,17 @@
+# Configuration for Instruct Agent
+paths:
+  voice_notes_folder: "data/voice-notes-demo"
+  transcripts_folder: "data/transcripts"
+  transcribe_prompt_file: "prompts/transcribe_instructions.md"
+  integration_instructions_folder: "data/integration_instructions"
+  integration_prompt_file: "prompts/integrate_instructions.md"
+  pipe_path: "/tmp/cursor_agent_pipe"
+
+llm_settings:
+  model: "gemini-2.5-flash-preview-04-17"
+  thinking_budget_transcribe: 1024
+  thinking_budget_integration: 0
+  temperature: 0.1
+
+agent_settings:
+  poll_interval_seconds: 2
